@@ -1,19 +1,19 @@
 h1 {
-  color:yellow;font-family:Raleway;font-size:110px;
+  color:MediumSeaGreen;font-family:Raleway;font-size:110px;
 }
 p {
-  color:red;font-size:50px;
+  color:PowderBlue;font-size:50px;
 }
 #id1 {
-  color:blue;font-family:Arial;
+  color:Aqua;font-family:Arial;
 }
 
 #id2 {
-  text-align:center;color:green;
+  text-align:center;color:Chartreuse;
 }
 
 .bluev p {
-  color:blue;font-family:Verdana;
+  color:Coral;font-family:Verdana;
 }
 
 .right:  {
