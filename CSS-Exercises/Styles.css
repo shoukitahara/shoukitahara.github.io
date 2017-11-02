@@ -1,6 +1,21 @@
 h1 {
-  color:Brown;font-family:Verdana;font-size:110px;
+  color:yellow;font-family:Verdana;font-size:110px;
 }
 p {
   color:red;font-size:50px;
+}
+#id1 {
+  color:blue;font-family:Verdana;
+}
+
+#id2 {
+  text-align:center;color:green;
+}
+
+.bluev p {
+  color:blue;font-family:Verdana;
+}
+
+.right:  {
+  text-align:right;
 }
