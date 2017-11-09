@@ -1,0 +1,42 @@
+body{
+  font-family:"Roboto",Serif;
+  background-color:#FCFCF2;
+}
+h1{
+  color:DarkCyan;
+  text-align:left;
+}
+h2{
+  background-color:DarkCyan;
+  color:White;
+  border:LightGrey;
+}
+a{
+  color:DarkCyan;
+}
+.tableclass, td, tr{
+  border:solid 2px DarkSlateGray;
+  background-color:White;
+}
+h3{
+  font-style: Italic
+}
+p{
+  color:SteelBlue;
+}
+.example{
+  border-left:5px solid #70A536;
+  color:blue;
+}
+.center{
+  text-align:center;
+}
+.quickreftable{
+  border:solid black 2px;
+  background-color: #70A536;
+  color:White;
+}
+code{
+  border:1px solid DarkSlateGray;
+  background-color:#efefef;
+}
