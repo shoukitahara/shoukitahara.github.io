@@ -7,6 +7,8 @@
     <link href="html-reference.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+
+<a href="https://shoukitahara.github.io">Homepage</a>
    
     <h1 class="center">HTML Reference Page</h1>
    
@@ -22,43 +24,43 @@
     <td><a href="#HTML">HTML Tag</a></td>
     <td>&lt;html></td>
     <td>&lt;/html></td>
-    <td>&lt;html>..&lt;/html></td>
+    <td><code>&lt;html>..&lt;/html></code></td>
   </tr>
   <tr>
     <td><a href="#Header">Header</a></td>
     <td>&lt;body>/td>
     <td>&lt;/body></td>
-    <td>&lt;body>..&lt;/body></td>
+    <td><code>&lt;body>..&lt;/body></code></td>
   </tr>
   <tr>
     <td><a href="#Title">Title</a></td>
     <td>&lt;title></td>
     <td>&lt;/title></td>
-    <td>&lt;title>This is the title &lt;/title></td>
+    <td><code>&lt;title>This is the title &lt;/title></code></td>
   </tr>
     <tr>
     <td><a href="#Body">Body</a></td>
     <td>&lt;body></td>
     <td>&lt;/body></td>
-    <td>&lt;body>..&lt;/body></td>
+    <td><code>&lt;body>..&lt;/body</code></td>
   </tr>
   <tr>
     <td><a href="#Heading">Heading</a></td>
     <td>&lt;hx></td>
     <td>&lt;/hx></td>
-    <td><h1>This is a Heading</h1></td>
+    <td><code>&lt;h1>..&lt;/h1></code></td>
   </tr>
   <tr>
     <td><a href="#Paragraphs">Paragraphs</a></td>
     <td>&lt;p></td>
     <td>&lt;/p></td>
-    <td><p>This is a paragraph</p></td>
+    <td><code>&lt;p>This is a paragraph&lt;/p></code></td>
   </tr>
   <tr>
     <td><a href="#Breaks">Breaks</a></td>
     <td>&lt;br></td>
     <td>N/A</td>
-    <td><code><p>br</p></code></td>
+    <td><code>&lt;p>Hello &lt;br> Bye&lt;/p></code></td>
   </tr>
   <tr>
     <td><a href="#Lines">Lines</a></td>
@@ -70,13 +72,13 @@
     <td><a href="#Comments">Comments</a></td>
     <td>&lt;!--</td>
     <td>--></td>
-    <td><!-- Please do not show these things in the browser :) --></td>
+    <td><code>&lt;!-- Please do not show these things in the browser :) --></code></td>
   </tr>
   <tr>
     <td><a href="#Links">Links</a></td>
     <td>&lt;a href=...></td>
     <td>&lt;/a></td>
-    <td><a href="https://www.google.com">Google</a></td>
+    <td><code><a href="https://www.google.com">Google</a></code></td>
   </tr>
   <tr>
     <td><a href="#Images">Images</a></td>
@@ -99,7 +101,7 @@
     <td><a href="#Tables">Tables</a></td>
     <td>&lt;table></td>
     <td>&lt;/table></td>
-    <td><p>This whole thing is the example</p></td>
+    <td><code><p>This whole thing is the example</p></code></td>
   </tr>
 </table>
 
@@ -111,8 +113,13 @@
     <h3>Syntax</h3>
     <p>The html goes within the &lt;&gt; and the end goes into &lt;/&gt; </p> 
     <h3>Example</h3>
-    <code class="example"> &lt;html&gt;</code>
+    <div class="example">
+      <code>
+        &lt;html&gt;
+      </code>
+    </div>
     <br>
+    <!--Pictures only appear on Github-->
     <a href="https://www.w3schools.com/tags/tag_html.asp">W3 schools website</a>
     
     <hr>
@@ -125,7 +132,12 @@
     <p>These elements are then left within the header. The header starts off with &lt;body&gt; <br>
       and then ends with &lt;/body&gt;</p>
     <h3>Example</h3>
-    <code class="example">&lt;head> &lt;/head></code>
+    <div class="example">
+      <code>
+      &lt;head> &lt;/head>
+      </code>
+    </div>
+    <br>
     <br>
     <a href="https://www.w3schools.com/tags/tag_header.asp">W3 schools website</a>
     
@@ -137,7 +149,11 @@
     <h3>Syntax</h3>
     <p>The titles is contained within the brackets and then is contains the <br> name in between.</p>
     <h3>Example</h3>
-    <code class="example">&lt;title> &lt;/title></code>
+    <div class="example">
+      <code>
+        &lt;title> &lt;/title>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Screenshot 2017-11-03 at 12.38.23 PM.png" alt="Rendering of Title Element">
     <br>
@@ -151,7 +167,11 @@
     <h3>Syntax</h3>
     <P>The Body element starts with &lt;body> and end with &gt;/body></P>
     <h3>Example</h3>
-    <code class="example">&lt;body> &lt;/body></code>
+    <div class="example">
+      <code>
+        &lt;body> &lt;/body>
+      </code>
+    </div>
     <br>
     <a href="https://www.w3schools.com/tags/tag_body.asp">W3 schools website</a>
     
@@ -164,7 +184,11 @@
     <P>The Heading element starts with &lt;hx> and ends with &lt;/hx> where x represents <br>
       a number and the larger the number, the smaller the heading</P>
     <h3>Example</h3>
-    <code class="example">&lt;h1> &lt;/h1></code>
+    <div class="example">
+      <code>
+        &lt;h1> &lt;/h1>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Screenshot 2017-11-03 at 12.49.51 PM.png" alt=Heading-screenshot>
     <br>
@@ -178,7 +202,11 @@
     <h3>Syntax</h3>
     <P>The Paragraph element starts with &lt;p> and ends with &lt;/p></P>
     <h3>Example</h3>
-    <code class="example">&lt;p> &lt;/p></code>
+    <div class="example">
+      <code>
+        &lt;p> &lt;/p>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Screenshot 2017-11-03 at 12.57.47 PM.png" alt=Paragraph-screenshot>
     <br>
@@ -192,7 +220,11 @@
     <h3>Syntax</h3>
     <P>The breaks are just inserted when you want to skip to the next line with &lt;br></P>
     <h3>Example</h3>
-    <code class="example">&lt;br></code>
+    <div class="example">
+      <code>
+        &lt;br>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Screenshot 2017-11-03 at 1.03.53 PM.png" alt=Breaks-Screenshot>
     <br>
@@ -206,7 +238,11 @@
     <h3>Syntax</h3>
     <P>The line is just used when you want to split something. You just type &lt;hr></P>
     <h3>Example</h3>
-    <code class="example">&lt;hr></code>
+    <div class="example">
+      <code>
+        &lt;hr>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Screenshot 2017-11-03 at 1.10.22 PM.png" alt=Lines-Screenshot>
     <br>
@@ -220,7 +256,11 @@
     <h3>Syntax</h3>
     <P> &lt;!-- ></P>
     <h3>Example</h3>
-    <code class="example">&lt;!-- --></code>
+    <div class="example">
+      <code>
+        &lt;!-- -->
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Screenshot 2017-11-03 at 1.16.08 PM.png" alt=Comments-Screenshot>
     <br>
@@ -234,9 +274,14 @@
     <h3>Syntax</h3>
     <P> &lt;a href=> &lt;/a> </P>
     <h3>Example</h3>
-    <code class="example">=&lt;a href=https://www.google.com> &lt;/a></code>
+    <div class="example">
+      <code>
+        &lt;a href=https://www.google.com> &lt;/a>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Links.PNG" alt=Links-Screenshot>
+    <br>
     <br>
     <a href="https://www.w3schools.com/html/html_links.asp">W3 schools website</a>
     
@@ -248,9 +293,14 @@
     <h3>Syntax</h3>
     <P> &lt;img src="..." alt=> </P>
     <h3>Example</h3>
-    <code class="example">=&lt;img src="../Images/Links.PNG" alt=Links-Screenshot></code>
+    <div class="example">
+      <code>
+        &lt;img src="../Images/Links.PNG" alt=Links-Screenshot>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Images.PNG" alt=Images-Screenshot>
+    <br>
     <br>
     <a href="https://www.w3schools.com/html/html_images.asp">W3 schools website</a>
     
@@ -262,14 +312,21 @@
     <h3>Syntax</h3>
     <P> &lt;o1> &lt;li> &lt;/li> &lt;o1></P>
     <h3>Example</h3>
-    <code class="example">=&lt;ul>
-    &lt;li>Banana&lt;/li>
-    &lt;li>Apple&lt;/li>
-    &lt;li>Orange&lt;/li>
-    &lt;/ul>
-    </code>
+    <div class="example">
+      <code>
+        &lt;ul>
+        &lt;li>Banana&lt;/li>
+        <br>
+        &lt;li>Apple&lt;/li>
+        <br>
+        &lt;li>Orange&lt;/li>
+        <br>
+        &lt;/ul>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Lists.PNG" alt=Lists-Screenshot>
+    <br>
     <br>
     <a href="https://www.w3schools.com/html/html_lists.asp">W3 schools website</a>
     
@@ -281,24 +338,38 @@
     <h3>Syntax</h3>
     <P> &lt;> &lt;li> &lt;/li> &lt;o1></P>
     <h3>Example</h3>
-    <code class="example">=&lt;ul>
+    <div class="example">
+      <code>
         &lt;&lt;table style="width:100%">
       &lt;tr>
         &lt;th>First Name&lt;/th>
+        <br>
         &lt;th>Last Name&lt;/th>
+        <br>
         &lt;th>Percentage&lt;/th>
+        <br>
       &lt;/tr>
+      <br>
     &lt;tr>
+    <br>
         &lt;td>Marshall&lt;/td>
+        <br>
         &lt;td>Davtyan&lt;/td>
+        <br>
         &lt;td>61&lt;/td>
+        <br>
         &lt;/tr>
+        <br>
         &lt;tr>
+        <br>
         &lt;/tr>
+        <br>
       &lt;/table>
-    </code>
+      </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Tablee.PNG" alt=Tables-Screenshot>
+    <br>
     <br>
     <a href="https://www.w3schools.com/html/html_tables.asp">W3 schools website</a>
 
@@ -310,12 +381,14 @@
     <h3>Syntax</h3>
     <P> &lt;div>...&lt;/div></P>
     <h3>Example</h3>
-    <code>=&lt;divclass=blueverdana>
+    <div class="example"><code>=&lt;divclass=blueverdana>
     &lt;<p>hello</p>
     &lt;/div>
     </code>
+    </div>
     <h3>Rendering</h3>
     <img src="../Images/Blocks.PNG" alt=Blocks-Screenshot>
+    <br>
     <br>
     <a href="https://www.w3schools.com/html/html_blocks.asp">W3 schools website</a>
 
