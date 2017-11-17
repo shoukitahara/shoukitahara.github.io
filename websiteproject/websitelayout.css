@@ -6,79 +6,94 @@ body {
   margin: 0;
 }
 
-/* Style the header */
 .header {
-    background-color: #f1f1f1;
+    background-color: #B92D1F;
     padding: 20px;
     text-align: center;
 }
 
-/* Style the top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: DarkCyan;
 }
 
-/* Style the topnav links */
+
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #4D3159;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* Change color on hover */
 .topnav a:hover:not(.active) {
     background-color: #EE5736;
     color: black;
 }
-
-/* indicate active page on nav */
 .active {
     background-color: #ACAE18;
 }
 
-/* A - Create three unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
 }
-
-/* Left and right column */
 .column.side {
-    width: 25%;
+    width: 30%;
 }
-
-/* Middle column */
 .column.middle {
-    width: 50%;
-    text-align:center;
+    width: 40%;
+    text-align:left;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
     .column.side, .column.middle {
         width: 100%;
     }
 }
 
-/* Style the footer */
 .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
+    background-color: #697ADB;
+    padding: 14px;
     text-align: center;
 }
 
 .centeralign{
 width:100%;
 text-align:center;
+}
+.list{
+  color:DarkCyan;
+  padding-left:15px;
+}
+.list1{
+  color:rgb(47, 144, 168);
+  padding-left:15px;
+}
+.list2{
+ color:rgb(50,160,33); 
+ padding-left:15px;
+}
+.list3{
+  color:rgb(215,96,18);
+}
+.tableclass, td, tr{
+  border:solid 2px DarkSlateGray;
+  background-color:White;
+  color:DarkCyan;
+}
+.tableheader{
+  border:solid black 2px;
+  background-color: #70A536;
+  color:White;
+}
+h2{
+  text-align:center;
 }
